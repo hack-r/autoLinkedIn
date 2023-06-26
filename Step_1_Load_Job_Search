@@ -1,0 +1,118 @@
+{
+  "Name": "Step 1_ Load Job Search",
+  "CreationDate": "2023-6-26",
+  "Commands": [
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!errorIgnore",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://www.linkedin.com/search/results/all/?keywords=data%20scientist",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"search-reusables__filters-bar\"]/div/div/button",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"search-reusables__filters-bar\"]/div/div/button",
+        "xpath=//nav/div/div/div/button",
+        "css=#search-reusables__filters-bar > div > div > button"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=advanced-filter-applyWithLinkedin-true",
+      "Value": "true",
+      "Targets": [
+        "id=advanced-filter-applyWithLinkedin-true",
+        "name=easy-apply-filter-value",
+        "xpath=//*[@id=\"advanced-filter-applyWithLinkedin-true\"]",
+        "xpath=//input[@id='advanced-filter-applyWithLinkedin-true']",
+        "xpath=//li[8]/fieldset/div/ul/li/input",
+        "css=#advanced-filter-applyWithLinkedin-true"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"ember172\"]/ul/li[8]/fieldset/div/ul/li/label",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"ember172\"]/ul/li[8]/fieldset/div/ul/li/label",
+        "xpath=//li[8]/fieldset/div/ul/li/label",
+        "css=#ember172 > ul > li:nth-child(8) > fieldset > div > ul > li > label"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=advanced-filter-applyWithLinkedin-true",
+      "Value": "",
+      "Targets": [
+        "id=advanced-filter-applyWithLinkedin-true",
+        "name=easy-apply-filter-value",
+        "xpath=//*[@id=\"advanced-filter-applyWithLinkedin-true\"]",
+        "xpath=//input[@id='advanced-filter-applyWithLinkedin-true']",
+        "xpath=//li[8]/fieldset/div/ul/li/input",
+        "css=#advanced-filter-applyWithLinkedin-true"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=advanced-filter-workplaceType-2",
+      "Value": "2",
+      "Targets": [
+        "id=advanced-filter-workplaceType-2",
+        "name=on-site/remote-filter-value",
+        "xpath=//*[@id=\"advanced-filter-workplaceType-2\"]",
+        "xpath=//input[@id='advanced-filter-workplaceType-2']",
+        "xpath=//li[6]/fieldset/div/ul/li[2]/input",
+        "css=#advanced-filter-workplaceType-2"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"ember172\"]/ul/li[6]/fieldset/div/ul/li[2]/label",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"ember172\"]/ul/li[6]/fieldset/div/ul/li[2]/label",
+        "xpath=//li[6]/fieldset/div/ul/li[2]/label",
+        "css=#ember172 > ul > li:nth-child(6) > fieldset > div > ul > li:nth-child(2) > label"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=advanced-filter-workplaceType-2",
+      "Value": "",
+      "Targets": [
+        "id=advanced-filter-workplaceType-2",
+        "name=on-site/remote-filter-value",
+        "xpath=//*[@id=\"advanced-filter-workplaceType-2\"]",
+        "xpath=//input[@id='advanced-filter-workplaceType-2']",
+        "xpath=//li[6]/fieldset/div/ul/li[2]/input",
+        "css=#advanced-filter-workplaceType-2"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"ember178\"]/span",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"ember178\"]/span",
+        "xpath=//button[2]/span",
+        "css=#ember178 > span"
+      ],
+      "Description": ""
+    }
+  ]
+}
