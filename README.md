@@ -24,13 +24,13 @@ So, this is a little tool to help reduce the applicants burden.
   3. Replace my default search terms with yours.
   4. Play Macro!
 
-### Pro Tips
+## Pro Tips
 
   - Works **far** better if you've applied to many jobs already and therefore have answers to common questions saved.
   - Doesn't work on many jobs, so check the log and finish applying to ones it missed.
   - This can be easily improved by handling more cases like drop-downs and radio buttons.
 
-### Risks 
+## Risks 
 
 Use this at your own risk. Possible risks:
   - Too many junk jobs creating noise in your search (high likelihood)
