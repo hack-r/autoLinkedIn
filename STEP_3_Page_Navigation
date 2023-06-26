@@ -1,0 +1,35 @@
+{
+  "Name": "Step 3_ Page Navigation",
+  "CreationDate": "2023-6-26",
+  "Commands": [
+    {
+      "Command": "store",
+      "Target": "3",
+      "Value": "page_loop",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "${page_loop}",
+      "Value": "respageIndex",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=button[aria-current=\"true\"][aria-label=\"Page ${page_loop}\"]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"ember4281\"]/button",
+        "xpath=//li[2]/button",
+        "css=#ember4281 > button"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
