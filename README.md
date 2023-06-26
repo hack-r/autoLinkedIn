@@ -37,6 +37,6 @@ I made it search for remote jobs only by default, but feel free to delete or cha
 ## Risks 
 
 Use this at your own risk. Possible risks:
-  - Too many junk jobs creating noise in your search (high likelihood)
-  - Get blocked or banned by LinkedIn (medium likelihood, mostly if you use it excessively and without human-like pauses)
-  - May annoy employers and/or evil, secret bands of recruiters / HR who stalk applicants and manipulate the job market. 
+  - Too many junk jobs creating noise in your search (high likelihood).
+  - Get blocked or banned by LinkedIn (low or medium likelihood, mostly if you use it excessively and without human-like pauses).
+  - May annoy employers and/or evil, secret bands of recruiters / HR who stalk applicants and manipulate the job market (medium likelihood). 
