@@ -1,0 +1,338 @@
+{
+  "Name": "LinkedIn Robot [End-to-End]",
+  "CreationDate": "2023-6-26",
+  "Commands": [
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!errorIgnore",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "data%20scientist",
+      "Value": "searchTerms",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://www.linkedin.com/search/results/all/?keywords=${searchTerms}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"search-reusables__filters-bar\"]/div/div/button",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"search-reusables__filters-bar\"]/div/div/button",
+        "xpath=//nav/div/div/div/button",
+        "css=#search-reusables__filters-bar > div > div > button"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=advanced-filter-applyWithLinkedin-true",
+      "Value": "true",
+      "Targets": [
+        "id=advanced-filter-applyWithLinkedin-true",
+        "name=easy-apply-filter-value",
+        "xpath=//*[@id=\"advanced-filter-applyWithLinkedin-true\"]",
+        "xpath=//input[@id='advanced-filter-applyWithLinkedin-true']",
+        "xpath=//li[8]/fieldset/div/ul/li/input",
+        "css=#advanced-filter-applyWithLinkedin-true"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"ember172\"]/ul/li[8]/fieldset/div/ul/li/label",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"ember172\"]/ul/li[8]/fieldset/div/ul/li/label",
+        "xpath=//li[8]/fieldset/div/ul/li/label",
+        "css=#ember172 > ul > li:nth-child(8) > fieldset > div > ul > li > label"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=advanced-filter-applyWithLinkedin-true",
+      "Value": "",
+      "Targets": [
+        "id=advanced-filter-applyWithLinkedin-true",
+        "name=easy-apply-filter-value",
+        "xpath=//*[@id=\"advanced-filter-applyWithLinkedin-true\"]",
+        "xpath=//input[@id='advanced-filter-applyWithLinkedin-true']",
+        "xpath=//li[8]/fieldset/div/ul/li/input",
+        "css=#advanced-filter-applyWithLinkedin-true"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=advanced-filter-workplaceType-2",
+      "Value": "2",
+      "Targets": [
+        "id=advanced-filter-workplaceType-2",
+        "name=on-site/remote-filter-value",
+        "xpath=//*[@id=\"advanced-filter-workplaceType-2\"]",
+        "xpath=//input[@id='advanced-filter-workplaceType-2']",
+        "xpath=//li[6]/fieldset/div/ul/li[2]/input",
+        "css=#advanced-filter-workplaceType-2"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"ember172\"]/ul/li[6]/fieldset/div/ul/li[2]/label",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"ember172\"]/ul/li[6]/fieldset/div/ul/li[2]/label",
+        "xpath=//li[6]/fieldset/div/ul/li[2]/label",
+        "css=#ember172 > ul > li:nth-child(6) > fieldset > div > ul > li:nth-child(2) > label"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=advanced-filter-workplaceType-2",
+      "Value": "",
+      "Targets": [
+        "id=advanced-filter-workplaceType-2",
+        "name=on-site/remote-filter-value",
+        "xpath=//*[@id=\"advanced-filter-workplaceType-2\"]",
+        "xpath=//input[@id='advanced-filter-workplaceType-2']",
+        "xpath=//li[6]/fieldset/div/ul/li[2]/input",
+        "css=#advanced-filter-workplaceType-2"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"ember178\"]/span",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"ember178\"]/span",
+        "xpath=//button[2]/span",
+        "css=#ember178 > span"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "${page_loop}",
+      "Value": "respageIndex",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "4",
+      "Value": "!TIMEOUT_WAIT",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "23",
+      "Value": "loop_count",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "${loop_count}",
+      "Value": "myLoop",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=ul.job-card-container__metadata-wrapper",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//*[@id=\"main\"]/div/div[2]/div/div[2]/div/div/div/div/div/div/div[4]/div",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"main\"]/div/div[2]/div/div[2]/div/div/div/div/div/div/div[4]/div",
+        "xpath=//div/div/div/div/div[4]/div",
+        "css=#main > div > div.scaffold-layout__detail.overflow-x-hidden.jobs-search__job-details > div > div.job-view-layout.jobs-details > div:nth-child(1) > div > div:nth-child(1) > div > div.relative.jobs-unified-top-card__container--two-pane > div.jobs-unified-top-card__content--two-pane > div:nth-child(4) > div"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "${!STATUSOK}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!STATUSOK}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "c6jna3_dpi_192.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!STATUSOK",
+      "Description": ""
+    },
+    {
+      "Command": "gotoLabel",
+      "Target": "SkipThisIteration",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "while",
+      "Target": "${!STATUSOK}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "answerOnNextPrompt",
+      "Target": "As Jason's job application AI, I will need to refer you to him regarding on this question. Apologies.",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "css=.artdeco-button.artdeco-button--2.artdeco-button--primary.ember-view",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "${!STATUSOK}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=.artdeco-button.artdeco-button--2.artdeco-button--primary.ember-view",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "2",
+      "Value": "!TIMEOUT_WAIT",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "css=input.fb-dash-form-element__error-field.artdeco-text-input--inputcss=.artdeco-button.artdeco-button--2.artdeco-button--primary.ember-view",
+      "Value": "As Jason's job application AI, I will need to refer you to him regarding on this question. Apologies.",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "4",
+      "Value": "!TIMEOUT_WAIT",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=button.artdeco-button.artdeco-button--primary > span.artdeco-button__text",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=button.artdeco-button.artdeco-button--primary > span.artdeco-button__text",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=span.artdeco-button__text",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=button[data-control-name=\\\"save_application_btn\\\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=button[data-control-name=\\\"submit_application_btn\\\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=.artdeco-button.artdeco-button--2.artdeco-button--primary.ember-view",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=span.artdeco-button__text",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "label",
+      "Target": "SkipThisIteration",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "3",
+      "Value": "page_loop",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=button[aria-current=\"true\"][aria-label=\"Page ${page_loop}\"]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"ember4281\"]/button",
+        "xpath=//li[2]/button",
+        "css=#ember4281 > button"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
