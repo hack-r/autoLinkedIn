@@ -21,8 +21,12 @@ So, this is a little tool to help reduce the applicants burden.
 
   1. Login to LinkedIn.
   2. Make sure you have a saved resume available and at least basic info saved (phone number for employers, email, etc).
-  3. Replace my default search terms with yours.
-  4. Play Macro!
+  3. Add UI.vision's extension to your browser (FireFox, Edge, or... if you must... Chrome).
+  4. Create a new, empty macro and paste in the code from the combined script (ui_vision_code.json).
+  5. Replace my default search terms with yours. 
+  6. Play Macro!
+
+I made it search for remote jobs only by default, but feel free to delete or change that part to your taste. Be careful about encouraging employers to make us work in person like animals if it's not warranted. What can we do in person that we can't do virtually? So we can smell each other or physically harass one another? To make sure we spend more time on the road that could've been put to productive use?
 
 ## Pro Tips
 
