@@ -10,7 +10,7 @@ Why?
   - Generative AI (while awesome and creating economic growth in many areas) is displacing a huge number of workers.
   - Government largely closing off its job opportunities to the public.
   - HR and collusive, slow-hiring employers greatly exacerbating the problems.
-  - If you follow the advice of taking your time to carefully apply for a small number of jobs, either you'll starve to death or you've got some significant unfair advantage that makes this irrelevant to you.
+  - If you follow the advice of taking your time to carefully apply for a small number of jobs, either you'll starve to death before that actually leads to employment or you've got some significant unfair advantage that makes this irrelevant to you.
   - Inflation and economic turmoil.
   - Job seeker resources have fallen off sharply post-pandemic.
   - Tech workers have been suffering mass layoffs.
