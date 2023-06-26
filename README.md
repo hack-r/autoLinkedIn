@@ -28,10 +28,13 @@ So, this is a little tool to help reduce the applicants burden.
 
 I made it search for remote jobs only by default, but feel free to delete or change that part to your taste. Be careful about encouraging employers to make us work in person like animals if it's not warranted. What can we do in person that we can't do virtually? So we can smell each other or physically harass one another? To make sure we spend more time on the road that could've been put to productive use?
 
+Many of LinkedIn's so-called "Easy Apply" jobs are actually pretty far from just a couple of clicks, so it will hit errors often, but that's not necessarily a problem. Just the limited functionality of the UI.vision tool makes errors nearly inevitable, but the script is written in a way that they shouldn't really matter. The trick is to keep the !TIMEOUT_WAIT variable in the sweet spot of just longer than an action should take. So, when it hits an error it moves on with things and gets back to working pretty quickly.
+
 ## Pro Tips
 
   - Works **far** better if you've applied to many jobs already and therefore have answers to common questions saved.
   - Doesn't work on many jobs, so check the log and finish applying to ones it missed.
+  - If you have any trouble with the end-to-end script, try running steps 1 and 2 separately. Step 3 is only really useful when combined with the first 2 steps. 
   - This can be easily improved by handling more cases like drop-downs and radio buttons.
 
 ## Risks 
