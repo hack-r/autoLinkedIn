@@ -1,0 +1,191 @@
+{
+  "Name": "Step 2_ Actions on loaded results page",
+  "CreationDate": "2023-6-26",
+  "Commands": [
+    {
+      "Command": "store",
+      "Target": "4",
+      "Value": "!TIMEOUT_WAIT",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "23",
+      "Value": "loop_count",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "${loop_count}",
+      "Value": "myLoop",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//body/div[5]/div[3]/div[4]/div/div/main/div/div[1]/div/ul/li[${!TIMES}]/div/div[1]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//*[@id=\"main\"]/div/div[2]/div/div[2]/div/div/div/div/div/div/div[4]/div",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"main\"]/div/div[2]/div/div[2]/div/div/div/div/div/div/div[4]/div",
+        "xpath=//div/div/div/div/div[4]/div",
+        "css=#main > div > div.scaffold-layout__detail.overflow-x-hidden.jobs-search__job-details > div > div.job-view-layout.jobs-details > div:nth-child(1) > div > div:nth-child(1) > div > div.relative.jobs-unified-top-card__container--two-pane > div.jobs-unified-top-card__content--two-pane > div:nth-child(4) > div"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "${!STATUSOK}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!STATUSOK}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "c6jna3_dpi_192.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!STATUSOK",
+      "Description": ""
+    },
+    {
+      "Command": "gotoLabel",
+      "Target": "SkipThisIteration",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "while",
+      "Target": "${!STATUSOK}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "answerOnNextPrompt",
+      "Target": "As Jason's job application AI, I will need to refer you to him regarding on this question. Apologies.",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "css=.artdeco-button.artdeco-button--2.artdeco-button--primary.ember-view",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "${!STATUSOK}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=.artdeco-button.artdeco-button--2.artdeco-button--primary.ember-view",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "2",
+      "Value": "!TIMEOUT_WAIT",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "css=input.fb-dash-form-element__error-field.artdeco-text-input--inputcss=.artdeco-button.artdeco-button--2.artdeco-button--primary.ember-view",
+      "Value": "As Jason's job application AI, I will need to refer you to him regarding on this question. Apologies.",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "4",
+      "Value": "!TIMEOUT_WAIT",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=button.artdeco-button.artdeco-button--primary > span.artdeco-button__text",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=button.artdeco-button.artdeco-button--primary > span.artdeco-button__text",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=span.artdeco-button__text",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=button[data-control-name=\\\"save_application_btn\\\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=button[data-control-name=\\\"submit_application_btn\\\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=.artdeco-button.artdeco-button--2.artdeco-button--primary.ember-view",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=span.artdeco-button__text",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "label",
+      "Target": "SkipThisIteration",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
