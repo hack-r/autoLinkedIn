@@ -36,6 +36,7 @@ Many of LinkedIn's so-called "Easy Apply" jobs are actually pretty far from just
   - Doesn't work on many jobs, so check the log and finish applying to ones it missed.
   - If you have any trouble with the end-to-end script, try running steps 1 and 2 separately. Step 3 is only really useful when combined with the first 2 steps. 
   - This can be easily improved by handling more cases like drop-downs and radio buttons.
+  - If you get a job this way, you'll probably want to give me a % of the pay. I take cryptocurrency. :)
 
 ## Risks 
 
