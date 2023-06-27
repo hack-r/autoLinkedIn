@@ -1,5 +1,7 @@
 # autoLinkedIn
 
+*** Under Construction ***
+
 A simple, imperfect-but-working robot for applying to jobs on LinkedIn. It uses the Selenium-based freemium tool [UI.vision](https://UI.vision) and leverages only free features of the tool.
 
 I haven't ported it to Selenium yet myself, as I haven't really had the need. Doing so should be easy enough however, and would offer finer-grain control.
