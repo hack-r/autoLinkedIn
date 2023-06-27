@@ -1,6 +1,6 @@
 # autoLinkedIn
 
-*** Under Construction ***
+***Under Construction***
 
 A simple, imperfect-but-working robot for applying to jobs on LinkedIn. It uses the Selenium-based freemium tool [UI.vision](https://UI.vision) and leverages only free features of the tool.
 
@@ -19,6 +19,12 @@ Why?
   - Ubiqitous use of "zombie" job listings.
 
 So, this is a little tool to help reduce the applicants burden. 
+
+## Status
+
+Under construction. My first iteration worked, but only during that session. As of now, I've got a more generalized version working with about 80% reliability. If you're looking for a quick solution it's probably not there at this moment, but it would be a great jumpstart and if you use the individual steps, particularlly Step 2, it can still save you time as-is.
+
+LinkedIn is tricky. They use a modal window for the search result's detail view, which is the bane of web scraping and browser automation. XPath would work but they're using embers which makes it more difficult. CSS seems to mostly work for me, thankfully.
 
 ## Usage
 
@@ -46,4 +52,4 @@ Many of LinkedIn's so-called "Easy Apply" jobs are actually pretty far from just
 Use this at your own risk. Possible risks:
   - Too many junk jobs creating noise in your search (high likelihood).
   - Get blocked or banned by LinkedIn (low or medium likelihood, mostly if you use it excessively and without human-like pauses).
-  - May annoy employers and/or evil, secret bands of recruiters / HR who stalk applicants and manipulate the job market (medium likelihood). 
+  - May annoy employers and/or evil, secret bands of recruiters / HR who stalk applicants and manipulate the job market (medium likelihood).
